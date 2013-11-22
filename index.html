@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html>
 <head>
 	<title>Learn Your Alphabets</title>
 
@@ -12,45 +12,9 @@
   #effect { width: 240px; height: 135px; padding: 0.4em; position: relative; }
   #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
   </style>
- <script type="text/javascript" src="jquery-1.3.1.pack.js"></script>
-<script type="text/javascript">
- 
-// When the document loads, initialize the button.
-$(
-function(){
-var jButton = $( "button" );
- 
-// First, hide all the list items.
-$( "li" ).hide();
- 
-jButton.data(
-"config",
-{
-Index: 0,
-Collection: $( "li" )
-}
-);
- 
-jButton.click(
-function( objEvent ){
-var jThis = $( this );
- 
-var objConfig = jThis.data( "config" );
-
-if (objConfig.Index < objConfig.Collection.length){
- 
-$( objConfig.Collection[ objConfig.Index++ ] ).slideDown();
- 
-}
- 
-objEvent.preventDefault();
-return( false );
-}
-);
-}
-);
- 
-</script>
+<script type="text/javascript" src="jquery-1.3.1.pack.js"></script>
+<script type="text/javascript"></script>
+<script src="js/learn.js"></script>
 </head>
 <body>
  
@@ -59,11 +23,12 @@ return( false );
 Learn Your ABC
 
 </h2>
- 
+<ul id="accordion"> 
 <form>
 <button>A</button>
 </form> 
-	<ul><li>Apple</li>
+	<ul>
+		<li>Apple</li>
 		<li>Art</li>
 		<li>Ant</li>
 	</ul>
@@ -74,5 +39,6 @@ Learn Your ABC
 		<li>Box</li>
 		<li>Boat</li>
 	</ul>
+</ul>
 </body>
 </html>
