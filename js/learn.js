@@ -27,16 +27,19 @@ $( "li" ).hide();
 	objEvent.preventDefault();
 	return( false );
 });
+
+$('div#letters').click(function(e)
+    {
+        $('.letters > div').hide();
+        $('div#letters input[type="button"]').each(function(index)
+        {
+            if($(this).is(':clicked'))
+            {
+                $('.letters > div:eq(' + index + ')').show();
+            }
+        });
+    });
 });
 
-$('#accordion ul').hide();
-$('#accordion li').click(function () {
-   $(this).parent().toggleClass('selected');
-   $(this).parent().children('ul').toggle('fast');
-   $(this).parent().siblings().children('ul').hide('fast');
-   $(this).parent().siblings().removeClass('selected');
-});
-$('#accordion .selected').click(function () {
-   $(this).parent().children('ul').toggle('fast');
-   $(this).parent().toggleClass('selected');
-});
+
+
