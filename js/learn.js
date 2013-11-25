@@ -26,10 +26,8 @@ $( "li" ).hide();
  
 	objEvent.preventDefault();
 	return( false );
-}
-);
-}
-);
+});
+});
 
 $('#accordion ul').hide();
 $('#accordion li').click(function () {
