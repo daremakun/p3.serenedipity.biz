@@ -28,17 +28,6 @@ $( "li" ).hide();
 	return( false );
 });
 
-$('div#letters').click(function(e)
-    {
-        $('.letters > div').hide();
-        $('div#letters input[type="button"]').each(function(index)
-        {
-            if($(this).is(':clicked'))
-            {
-                $('.letters > div:eq(' + index + ')').show();
-            }
-        });
-    });
 });
 
 
