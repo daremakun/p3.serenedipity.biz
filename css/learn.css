@@ -5,3 +5,11 @@ width: 70px;
 -moz-border-radius: 35px;
 border-radius: 35px;
 }
+
+button hover {
+border-top: 5px solid #004a80;
+border-bottom: 5px solid #004a80;
+background:#004a80;
+font-size:9pt;
+font-weight:bold;
+}
