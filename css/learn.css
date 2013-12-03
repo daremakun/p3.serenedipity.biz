@@ -1,5 +1,5 @@
 
-						button {
+						button 			{
                                         border-radius: 35px;
                                         color: #000;
                                         display: inline;
@@ -11,13 +11,13 @@
                                         cursor: pointer;
                                         background: #DAA520
                                         }
-                        button:hover {
+                        button:hover 	{
                                         background: none repeat scroll 0 0 #8B0000;
                                         border: 5px solid #8A2BE2;
                                         font-weight: bold;
                                         color: #fff;
                                         }
-                        button:active { 
+                        button:active 	{ 
                                         background: none repeat scroll 0 0 #8B0000;
                                         border: 5px solid #8A2BE2;
                                         font-size: 22pt;
@@ -25,7 +25,7 @@
                                         color: #fff;
                                 	
                                         }
-                        button:active:after { 
+                    button:active:after { 
                                         background: none repeat scroll 0 0 #8B0000;
                                         border: 5px solid #8A2BE2;
                                         font-weight: bold;
@@ -35,7 +35,7 @@
                                         margin: 0 auto;
                                         width: 450px;
                                         }
-                        #results {
+                        #results 		{
                                         min-height: 40px;
                                         padding-bottom: 10px;
                                         padding-top: 10px;
@@ -46,7 +46,7 @@
                                 		font: 50px 'MisoRegular';
                                         }
                                         
-                        #footer {
+                        #footer 		{
                         				text-align: center;
     									font-weight: bold;
     									color : #480000;

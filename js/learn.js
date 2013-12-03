@@ -1,6 +1,6 @@
                         // We store all of our data as an array and access the array when needed
                         var myWords = new Array();
-                        myWords["A"] = ["Apple", "Ant", "Art"];
+                        myWords["A"] = ["Apple". "Ant". "Art"];
                         myWords["B"] = ["Bat", "Boy", "Baby", "Bear"];
                         myWords["C"] = ["Cat", "Class", "Cup"];
                         myWords["D"] = ["Dog", "Door", "Deer"];
