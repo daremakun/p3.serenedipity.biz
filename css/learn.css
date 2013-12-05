@@ -13,24 +13,17 @@
                                         }
                         button:hover 	{
                                         background: none repeat scroll 0 0 #8B0000;
-                                        border: 5px solid #8A2BE2;
+                                        border: 5px solid #FF99CC;
                                         font-weight: bold;
                                         color: #fff;
                                         }
-                        button:active 	{ 
+                       .pass:active, .active 	{ 
                                         background: none repeat scroll 0 0 #8B0000;
                                         border: 5px solid #8A2BE2;
-                                        font-size: 22pt;
+                                        font-size: 26pt;
                                         font-weight: bold;
                                         color: #fff;
-                                	
-                                        }
-                    button:active:after { 
-                                        background: none repeat scroll 0 0 #8B0000;
-                                        border: 5px solid #8A2BE2;
-                                        font-weight: bold;
-                                        color: #fff;
-                                        }
+                                        }                
                         .main-container {
                                         margin: 0 auto;
                                         width: 450px;
@@ -41,11 +34,14 @@
                                         padding-top: 10px;
                                         text-align: center;
                                         color: #480000;
-                                		text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+                                		text-shadow: 0 0 5px #fff, 
+                                		0 0 10px #fff, 0 0 15px #fff, 
+                                		0 0 20px #ff2d95, 0 0 30px #ff2d95, 
+                                		0 0 40px #ff2d95, 0 0 50px #ff2d95, 
+                                		0 0 75px #ff2d95;
                                 		letter-spacing: 5px;
                                 		font: 50px 'MisoRegular';
-                                        }
-                                        
+                                        }                     
                         #footer 		{
                         				text-align: center;
     									font-weight: bold;
